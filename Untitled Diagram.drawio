@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T07:28:03.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.5" etag="PxTQZU6Pi-4sCekXlrF_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T09:13:55.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5XzrSRmWQgByO24mpoKS" version="24.6.5" type="github">
   <diagram name="Page-1" id="IwSSLwuOnNOyw23XbFBf">
-    <mxGraphModel>
+    <mxGraphModel dx="2835" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Mps03B1op9807FFeRRug-32" value="WEB SOCKET CLUSTER" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#cce5ff;strokeColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="530" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mps03B1op9807FFeRRug-23" target="Mps03B1op9807FFeRRug-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-23" value="EVENT-SERVICE" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=20;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacingTop=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="415" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-12" value="KAFKA BROKERS" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=30;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fillColor=#b1ddf0;strokeColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="185" y="240" width="230" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-1" value="Market Data&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;(FSS core)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="328" width="220" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-2" value="Kafka Producer&lt;br style=&quot;font-size: 18px;&quot;&gt;REQUEST SENDER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="328" width="230" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-3" value="Topic 1&lt;br&gt;QUOTE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-4" value="Topic 2&lt;br&gt;BID-OFFER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-5" value="Topic 4&lt;br&gt;ADVERTISED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-6" value="Topic 5&lt;br&gt;QUOTE-ODD-LOT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-7" value="Topic 3&lt;br&gt;MARKET-STATUS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-8" value="Topic 7&lt;br&gt;VN30SYMBOL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-9" value="Topic 8&lt;br&gt;HNX30SYMBOL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-10" value="Topic 6&lt;br&gt;QUOTE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-27" value="SOCKET-CLUSTER-SERVICE" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=20;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacingTop=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="415" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-21" value="Processed Data (ExtraQuote, MarketStatus,...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="455" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-30" value="Kafka Records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="585" y="455" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-31" value="SOCKET CLIENTS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="290" width="200" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="574.38" as="sourcePoint" />
+            <mxPoint x="500" y="574.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="572.38" as="sourcePoint" />
+            <mxPoint x="-190" y="572.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=8.75;endSize=5.999999999999999;endWidth=15.3125;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="567.09" as="sourcePoint" />
+            <mxPoint x="150" y="567.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="568.18" as="sourcePoint" />
+            <mxPoint x="1120" y="568.18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mps03B1op9807FFeRRug-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MARKET COLLECTOR SERVICE ARCHITECTURE&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="970" width="490" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
